@@ -30,8 +30,3 @@ typedef struct Carrinho {
     ItemCarrinho *itens;
     struct Carrinho *prox;
 } Carrinho;
-
-int main () {
-
-    return 0;
-}

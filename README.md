@@ -89,3 +89,28 @@ O sistema deve permitir:
 | Uso correto de alocação dinâmica | 1,0    |
 | Organização do código, repositório e execução | 2,0    |
 | **TOTAL**                        | **10** |
+
+
+
+# Trabalho EDA — Listas Encadeadas em C
+
+## 📁Provável Estrutura de Pastas do Projeto
+
+```text
+Trabalho EDA/
+│
+├── Carrinho/
+│   ├── carrinho.c
+│   └── carrinho.h
+│
+├── Clientes/
+│   ├── cliente.c
+│   └── cliente.h
+│
+├── Produtos/
+│   ├── produto.c
+│   └── produto.h
+│
+├── main.c
+├── structs_trabalho.h
+

@@ -2,6 +2,8 @@
 #define CARRINHO_H
 
 #include "struct_trabalho.h"
+#include "produto.h"
+
 
 Carrinho* buscarCarrinho(Carrinho *lista, char *cpf);
 Carrinho* criarCarrinho(Carrinho *lista, char *cpf);
@@ -13,3 +15,4 @@ void removerProdutoCarrinho(Carrinho *c, Produto *produtos, int codigo);
 
 
 #endif
+

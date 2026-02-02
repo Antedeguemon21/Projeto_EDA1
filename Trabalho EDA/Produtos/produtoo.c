@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "produto.h"
+
+Produto* cadastrarProduto(Produto *lista) {
+    Produto *novo = malloc(sizeof(Produto));
+
+    printf("Codigo: ");
+    scanf("%d", &novo->codigo);
+    printf("Nome: ");
+    scanf(" %[^\n]", novo->nome);
+    printf("Preco: ");
+    scanf("%f", &novo->preco);
+    printf("Quantidade: ");
+    scanf("%d", &novo->quantidade);
+
+    novo->prox = lista;
+    return novo;
+}
+
+
+Produto* listarProdutos(Produto*lista) {
+while (lista) {
+printf("Codigo: %d | %s | R$: %2.f | Estoque: %d\n", lista->codigo, lista->nome, lista>preco, lista->preco, lista->quantidade);
+
+lista = lista->prox;
+
+}
+
+}
+
+Produto* buscarProduto(Produto *lista, int codigo ) {
+    while (lista) {
+        if (lista->codigo == codigo)
+        return lista;
+        lista = lista->prox
+    }
+    return NULL;
+}
+
+Produto* editarProduto(Produto *lista, int codigo) {
+    Produto *p = buscarProduto(lista, codigo);
+    if(!p) return ;
+    printf("novo nome ");
+    scanf("%[^\n]"p->nome);
+    prinf("Novo preco ");
+    scanf("%f", &p->preco);
+    printf("Quantia do produto ", &p->quantidade);
+    scanf("%d", &p->quantidade);
+
+    return lista
+}

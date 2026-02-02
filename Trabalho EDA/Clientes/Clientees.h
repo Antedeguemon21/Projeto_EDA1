@@ -1,6 +1,6 @@
 #ifndef CLIENTE_H
 #define CLIENTE_H
-#include "struct_Clientes.h"
+#include "structs_trabalho.h"
 
 
 Cliente* buscarCliente(Cliente *lista, char cpf[]);

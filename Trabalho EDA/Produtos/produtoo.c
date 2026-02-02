@@ -26,8 +26,6 @@ lista = lista->prox;
 
 }
 
-}
-
 Produto* buscarProduto(Produto *lista, int codigo ) {
     while (lista) {
         if (lista->codigo == codigo)
@@ -77,3 +75,4 @@ Produto*  removerProduto(Produto *lista, int codigo) {
     free(atual);
     return lista;
 }
+

@@ -11,7 +11,7 @@ void menuPrincipal() {
     printf("2 - Gerenciar Produtos\n");
     printf("3 - Modo Compra\n");
     printf("0 - Sair\n");
-    printf("Opcao ");
+    printf("Opcao: ");
 }
 void menuClientes() {
     printf("\n-=-=-=- MENU CLIENTES =-=-=-=-=\n");
@@ -19,7 +19,7 @@ void menuClientes() {
     printf("2 - Listar\n");
     printf("3 - Editar\n");
     printf("4 - Remover\n");
-    printf("Opcao ");
+    printf("Opcao: ");
 }
 
 void menuProdutos() {
@@ -36,7 +36,7 @@ void menuCarrinho() {
     printf("1 - Adicionar produto\n");
     printf("2 - Remover produto\n");
     printf("3 - Listar carrinho\n");
-    printf("Opcao ");
+    printf("Opcao: ");
 }
 int main() {
     Cliente *clientes = NULL;

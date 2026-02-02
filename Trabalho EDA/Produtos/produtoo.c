@@ -21,8 +21,7 @@ Produto* cadastrarProduto(Produto *lista) {
 
 Produto* listarProdutos(Produto*lista) {
 while (lista) {
-printf("Codigo: %d | %s | R$: %2.f | Estoque: %d\n", lista->codigo, lista->nome, lista>preco, lista->preco, lista->quantidade);
-
+printf("Codigo: %d | %s | R$: %2.f | Estoque: %d\n", lista->codigo, lista->nome, lista->quantidade);
 lista = lista->prox;
 
 }
@@ -49,4 +48,5 @@ Produto* editarProduto(Produto *lista, int codigo) {
     scanf("%d", &p->quantidade);
 
     return lista
+
 }

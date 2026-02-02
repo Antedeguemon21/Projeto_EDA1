@@ -50,3 +50,30 @@ Produto* editarProduto(Produto *lista, int codigo) {
     return lista
 
 }
+
+Produto*  removerProduto(Produto *lista, int codigo) {
+    Produto*ant =NULL, *atual = lista;
+
+    while(atual &&atual ->codigo != codigo) {
+        ant = atual;
+        atual = atual->prox;
+
+    }
+
+    if (!atual) {
+        printf("Produto não achado");
+        return lista;
+    }
+
+    printf("Produto removido : %s (Codigo %d): ", atual->nome, atual->codigo);
+
+    if (ant)
+
+    ant->prox = atual-> prox ;
+
+    else 
+    lista = atual->prox;
+
+    free(atual);
+    return lista;
+}

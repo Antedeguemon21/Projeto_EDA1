@@ -99,18 +99,11 @@ O sistema deve permitir:
 ```text
 Trabalho EDA/
 │
-├── Carrinho/
-│   ├── carrinho.c
-│   └── carrinho.h
-│
-├── Clientes/
-│   ├── cliente.c
-│   └── cliente.h
-│
-├── Produtos/
-│   ├── produto.c
-│   └── produto.h
-│
 ├── main.c
+├── cliente.c
+├── cliente.h
+├── produto.c
+├── produto.h
+├── carrinho.c
+├── carrinho.h
 ├── structs_trabalho.h
-

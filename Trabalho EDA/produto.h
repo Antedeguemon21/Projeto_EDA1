@@ -1,7 +1,6 @@
 #ifndef PRODUTO_H
 #define PRODUTO_H
-
-#include "struct_trabalho.h"
+#include "structs_trabalho.h"
 
 Produto* cadastrarProduto(Produto *lista);
 void listarProdutos(Produto *lista);

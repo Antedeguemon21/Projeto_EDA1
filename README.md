@@ -100,10 +100,10 @@ O sistema deve permitir:
 Trabalho EDA/
 │
 ├── main.c
-├── cliente.c
-├── cliente.h
+├── clientes.c
+├── Clientees.h
 ├── produto.c
-├── produto.h
-├── carrinho.c
+├── produtoo.h
+├── carrinhoo.c
 ├── carrinho.h
 ├── structs_trabalho.h

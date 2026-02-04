@@ -23,7 +23,7 @@ void cadastrarCliente(Cliente **lista) {
     Cliente *novo = (Cliente*) malloc(sizeof(Cliente));
 
     printf("CPF: ");
-    scanf("%s", novo->cpf);
+    scanf("%14s", novo->cpf);
 
 
     if (buscarCliente(*lista, novo->cpf) != NULL) {
@@ -125,3 +125,4 @@ void removerCliente(Cliente **lista) {
     free(atual);
     printf("Cliente removido com sucesso!\n");
 }
+

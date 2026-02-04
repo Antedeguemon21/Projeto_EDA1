@@ -94,7 +94,7 @@ O sistema deve permitir:
 
 # Trabalho EDA — Listas Encadeadas em C
 
-## 📁Provável Estrutura de Pastas do Projeto
+## 📁Estrutura de Pastas do Projeto
 
 ```text
 Trabalho EDA/
